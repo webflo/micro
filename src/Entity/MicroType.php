@@ -7,7 +7,7 @@
 
 namespace Drupal\micro\Entity;
 
-use Drupal\Core\Config\Entity\ConfigEntityBase;
+use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 use Drupal\Core\Annotation\Translation;
 
 /**
@@ -37,7 +37,7 @@ use Drupal\Core\Annotation\Translation;
  *   }
  * )
  */
-class MicroType extends ConfigEntityBase {
+class MicroType extends ConfigEntityBundleBase {
 
   /**
    * The bundle ID.
