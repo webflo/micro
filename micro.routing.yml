@@ -63,4 +63,4 @@ entity.micro.delete_form:
   defaults:
     _entity_form: 'micro.delete'
   requirements:
-    _permission: 'administer micro content'
+    _entity_access: 'micro.delete'
