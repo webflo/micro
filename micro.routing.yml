@@ -56,7 +56,7 @@ entity.micro.edit_form:
   defaults:
     _entity_form: 'micro.edit'
   requirements:
-    _entity_access: 'micro.edit'
+    _entity_access: 'micro.upate'
 
 entity.micro.delete_form:
   path: '/micro/{micro}/delete'
